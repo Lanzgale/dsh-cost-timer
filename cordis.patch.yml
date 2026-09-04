@@ -1,7 +1,7 @@
-# dsh-cost-lite bundle patch: one host row over the web profile.
+# dsh-cost-timer bundle patch: one host row over the web profile.
 # Fork of dsh-cost-meter (Han-1413141/dsh-cost-meter); name resolves from the
 # profile's own node_modules where `dsh plugin --profile web add <path>`
 # installed this package.
 - insert:
-    - id: cost-lite
-      name: dsh-cost-lite
+    - id: cost-timer
+      name: dsh-cost-timer

@@ -1,7 +1,7 @@
 MIT License
 
 Copyright (c) 2026 dsh-cost-meter contributors
-Copyright (c) 2026 Lanzgale — dsh-cost-lite (fork of dsh-cost-meter, Han-1413141/dsh-cost-meter)
+Copyright (c) 2026 Lanzgale — dsh-cost-timer (fork of dsh-cost-meter, Han-1413141/dsh-cost-meter)
 
 This project is a fork of dsh-cost-meter (https://github.com/Han-1413141/dsh-cost-meter),
 trimmed to balance, daily cost, session cost history, official price sync and

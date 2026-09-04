@@ -1,4 +1,4 @@
-# dsh-cost-lite
+# dsh-cost-timer
 
 DeepSeek Harness 会话费用统计插件——**dsh-cost-meter 的精简 fork**。
 
@@ -97,7 +97,7 @@ host 侧 `backfill.js` / `coding-plans.js` / `custom-balance.js` 已删除,`cost
 ## 安装
 
 ```bash
-dsh plugin --profile web add ~/file/dsh/plugin/dsh-cost-lite
+dsh plugin --profile web add ~/file/dsh/plugin/dsh-cost-timer
 ```
 
 替换原 dsh-cost-meter(两者都记账会重复计费):

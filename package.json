@@ -1,5 +1,5 @@
 {
-  "name": "dsh-cost-lite",
+  "name": "dsh-cost-timer",
   "version": "1.0.0",
   "description": "DeepSeek Harness 会话费用统计精简版(基于 dsh-cost-meter fork):保留官方账户余额、当日费用、会话费用排行/历史与官方价格同步,峰谷计价时段显示(橙蓝条按真实窗口与当前时刻定位)。砍掉了预算、Go/Coding Plan/自定义余额额度、设置页「额度/显示」分节等用不到的功能。费用设置改为点击左下角余额卡片打开的自绘浮层。Session cost tracking lite fork of dsh-cost-meter: official balance, daily cost, session cost ranking/history, official price sync, and peak/off-peak hour display (track reflects real windows and current time). Budget, Go / Coding Plan / custom-balance quotas, and the Settings quota/display sections are removed; the cost settings open as a self-drawn overlay from the sidebar balance card.",
   "type": "module",
@@ -26,7 +26,7 @@
   },
   "dshhub": {
     "schemaVersion": 1,
-    "displayName": "dsh-cost-lite",
+    "displayName": "dsh-cost-timer",
     "summary": "DeepSeek Harness 会话费用统计精简版:官方余额、当日费用、会话费用排行/历史、官方价格同步与峰谷时段显示(橙蓝条按真实窗口与当前时刻定位);预算、Go/Coding Plan/自定义余额与设置页「额度/显示」分节已裁剪,费用设置由左下角余额卡片打开。",
     "categories": [
       "费用",
@@ -64,9 +64,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lanzgale/dsh-cost-lite.git"
+    "url": "git+https://github.com/Lanzgale/dsh-cost-timer.git"
   },
-  "homepage": "https://github.com/Lanzgale/dsh-cost-lite#readme",
+  "homepage": "https://github.com/Lanzgale/dsh-cost-timer#readme",
   "keywords": [
     "deepseek",
     "deepseek-harness",
