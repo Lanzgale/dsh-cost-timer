@@ -88,7 +88,7 @@ DeepSeek Harness 会话费用插件——源自 **dsh-cost-meter** 的 fork:从"
 | 预算 / Go 额度 / Coding Plan / 自定义余额 | **已重做回归**:预算(日/月/累计/自定义区间)、Go 额度、Coding Plan(**8 家**:Anthropic / Z.AI / MiniMax / Kimi / OpenRouter / SiliconFlow / CommandCode / SCNet)、自定义余额端点 |
 | 设置页「额度」「显示」分节 | 已有(额度、显示设置均可在设置页调整) |
 | 输入框上方额度横条 | **本 fork 新增**(预算与多家订阅额度的实时百分比) |
-| 低谷时段提醒 | **本 fork 新增**(一次性预约,见上文) |
+| 平价时段提醒 | **本 fork 新增**(一次性预约,见上文) |
 | 余额条 | **本 fork 重做**(充值周期电池,替代上游的当日消耗条) |
 | 点击图框即时刷新 | **本 fork 新增**(余额 / 自定义余额 / Coding Plan 图框点击刷新) |
 | 安装前历史导入 | 移除(历史回填/清洗逻辑一并移除) |
@@ -98,7 +98,7 @@ DeepSeek Harness 会话费用插件——源自 **dsh-cost-meter** 的 fork:从"
 
 上游的 `backfill.js` / `coding-plans.js` / `custom-balance.js` 三个独立文件未沿用:额度查询与自定义余额
 都实现在核心文件里(`store.js` 配置与状态、`index.js` 取数、`typert.host.js` 下发、`client.js` 渲染),
-另新增 `alarm.js`(低谷提醒)、`billing-stream.js`、`net.js`。
+另新增 `alarm.js`(平价提醒)、`billing-stream.js`、`net.js`。
 
 ## 安装
 
