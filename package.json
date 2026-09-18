@@ -1,7 +1,7 @@
 {
   "name": "dsh-cost-timer",
   "version": "1.0.0",
-  "description": "DeepSeek Harness 会话费用统计精简版(基于 dsh-cost-meter fork):保留官方账户余额、当日费用、会话费用排行/历史与官方价格同步,峰谷计价时段显示(橙蓝条按真实窗口与当前时刻定位)。砍掉了预算、Go/Coding Plan/自定义余额额度、设置页「额度/显示」分节等用不到的功能。费用设置改为点击左下角余额卡片打开的自绘浮层。Session cost tracking lite fork of dsh-cost-meter: official balance, daily cost, session cost ranking/history, official price sync, and peak/off-peak hour display (track reflects real windows and current time). Budget, Go / Coding Plan / custom-balance quotas, and the Settings quota/display sections are removed; the cost settings open as a self-drawn overlay from the sidebar balance card.",
+  "description": "DeepSeek Harness 会话费用插件(源自 dsh-cost-meter 的 fork):官方账户余额 + 充值周期余额条(满格=上次充值后余额,随消费流失、充值回满)、今日/最近30天/累计费用、Token 用量热图、按日期/会话/模型统计、官方价格同步与峰谷计价、预算与 Coding Plan 额度(8 家)、低谷时段一次性预约提醒、中英双语。Session cost plugin for DeepSeek Harness (fork of dsh-cost-meter): official balance with a recharge-cycle bar, daily/rolling-30d/total cost, token usage heatmap, per-day/session/model statistics, official price sync with peak/off-peak display, budgets and coding-plan quotas (8 vendors), a one-shot off-peak reminder, bilingual UI.",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
